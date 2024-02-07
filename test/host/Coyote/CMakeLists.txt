@@ -19,7 +19,7 @@ add_subdirectory(${CMAKE_SOURCE_DIR}/../../../driver/xrt/ ${CMAKE_CURRENT_BINARY
 
 # Exec
 set(EXEC accl_on_coyote)
-add_executable(${EXEC} ${CMAKE_SOURCE_DIR}/test.cpp)
+add_executable(${EXEC} ${CMAKE_SOURCE_DIR}/test_finn.cpp)
 
 # accl
 target_include_directories(${EXEC} PUBLIC ${ACCL_DRIVER_DIR}/include)
